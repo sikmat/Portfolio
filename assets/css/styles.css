@@ -9,7 +9,7 @@
     --bg-color: #fcfcfc;
     --primary-color: #4756df;
     --secondary-color: #d15b28;
-    --primary-shadow: 8b8eaf;
+    --primary-shadow: #8b8eaf;
     --secondary-shadow: #a17a69;
     --bottom-margin: 0.5rem;
     --bottom-margin-2: 1rem;
@@ -104,6 +104,7 @@ nav ul li {
     gap: 2.5rem;
     max-width: 68.75rem;
     margin: auto;
+    padding-top: 2rem;
 }
 
 .hero img {
@@ -115,7 +116,7 @@ nav ul li {
     width: 25rem;
     padding: 0.625rem;
     border-radius: 6px;
-    box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+    box-shadow: 0px 2px 15px 2px var(--secondary-shadow);
 }
 
 .bio h1 {
@@ -151,6 +152,7 @@ nav ul li {
     margin: auto;
     text-align: center;
     margin-top: 2.5rem;
+    padding-top: 5rem;
 }
 
 .skills-header {
@@ -162,22 +164,22 @@ nav ul li {
 }
 
 .icon {
-    width: 11.875rem;
-    height: 11.25rem;
+    width: 8.875rem;
+    height: 8.25rem;
 }
 
-/*.icon-card {
+.icon-card {
     background-color: #fff;
-    border-radius: 11px;
+    border-radius: 10px;
     box-shadow: 0 3px 10px var(--secondary-shadow);
     padding: 20px;
     margin: 10px;
-}*/
+}
 
 /* projects section*/
 .projects {
     background-color: var(--bg-color);
-    padding: 32px 0;
+    padding: 100px 0px 160px;
     margin-top: 2rem;
 }
 
@@ -216,11 +218,13 @@ nav ul li {
 }
 
 .project-card {
-    background-color: #f0f0fa;
+    background-color: #fff;
     border-radius: 11px;
     box-shadow: 0 3px 10px var(--primary-shadow);
     padding: 20px;
     margin: 10px;
+    height: 15rem;
+
 }
 
 .contact {
@@ -233,7 +237,7 @@ nav ul li {
 }
 
 .contact-form-container {
-    max-width: 40.75rem;
+    max-width: 30.75rem;
     margin: 0 auto;
     padding: 0.938rem;
     border-radius:  5px;
@@ -313,8 +317,8 @@ footer {
 }
 
 .up-arrow {
-    width: 3rem;
-    height: 3rem;
+    width: 8rem;
+    height: 8rem;
 }
 
 @media screen and (max-width: 720px) {
