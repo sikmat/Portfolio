@@ -6,11 +6,11 @@
     --normal-font: 400;
     --bold-font: 700;
     --bolder-fonter: 900;
-    --bg-color: #fcfcfc;
-    --primary-color: #4756df;
+    --bg-color: #ffffffdf;
+    --primary-color: #4c63a9;
     --secondary-color: #d15b28;
-    --primary-shadow: #8b8eaf;
-    --secondary-shadow: #a17a69;
+    --primary-shadow: #c7de99ba;
+    --secondary-shadow: #73493a;
     --bottom-margin: 0.5rem;
     --bottom-margin-2: 1rem;
     --line-height: 1.7rem;
@@ -44,6 +44,7 @@ a:hover {
 
 body {
     font-family: var(--font-family);
+    background-color: var(--bg-color);
 }
 
 section {
@@ -59,8 +60,8 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 1.5rem 3.5rem;
-    background-color: var(--bg-color);
-    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    background-color: #dacfcb;
+    box-shadow: 0px 2px 15px 2px var(--secondary-shadow);;
 }
 
 nav h1 {
@@ -105,18 +106,20 @@ nav ul li {
     max-width: 68.75rem;
     margin: auto;
     padding-top: 2rem;
+    
 }
 
 .hero img {
-    height: 37.5rem;
-    width: 37.5rem;
+    height: 25rem;
+    width: 25rem;
 }
 
 .bio {
     width: 25rem;
-    padding: 0.625rem;
-    border-radius: 6px;
-    box-shadow: 0px 2px 15px 2px var(--secondary-shadow);
+    padding: 1.25rem;
+    border-radius: 30px;
+    background-color: #d5c9c9cb;
+    box-shadow: 50px 52px 55pc 52pc #97886e21;
 }
 
 .bio h1 {
@@ -131,8 +134,7 @@ nav ul li {
 
 /*more-about section*/
 .more-about {
-    background-color: var(--bg-color);
-    padding: 1rem 6rem;
+    padding: 1rem 16rem;
 }
 
 .more-about h2 {
@@ -169,9 +171,9 @@ nav ul li {
 }
 
 .icon-card {
-    background-color: #fff;
+    background-color: #d5c9c9cb;
     border-radius: 10px;
-    box-shadow: 0 3px 10px var(--secondary-shadow);
+    box-shadow: 0pc 50pc 50pc 50pc #dbd6cd20;
     padding: 20px;
     margin: 10px;
 }
@@ -218,9 +220,9 @@ nav ul li {
 }
 
 .project-card {
-    background-color: #fff;
+    background-color: #d5c9c9cb;
     border-radius: 11px;
-    box-shadow: 0 3px 10px var(--primary-shadow);
+    box-shadow: 0px 2px 15px 2px #0d2d87c1;
     padding: 20px;
     margin: 10px;
     height: 15rem;
@@ -229,6 +231,7 @@ nav ul li {
 
 .contact {
     margin-top: 2rem;
+    padding-top: 5rem;
 }
 
 .contact h2 {
@@ -237,9 +240,10 @@ nav ul li {
 }
 
 .contact-form-container {
-    max-width: 30.75rem;
+    max-width: 25.75rem;
+    max-height: 25rem;
     margin: 0 auto;
-    padding: 0.938rem;
+    padding: 0.38rem;
     border-radius:  5px;
     box-shadow: 0 3px 10px var(--secondary-shadow);
 }
@@ -252,6 +256,7 @@ nav ul li {
 
 .contact-form-container textarea {
     min-height: 6.25rem;
+    max-height: 5rem;
     font-size: 14px;
 }
 
@@ -306,7 +311,7 @@ footer {
     background-color: var(--bg-color);
     padding: 1.25rem;
     text-align: center;
-    margin: 2rem;
+    margin: 0.8rem;
 }
 
 .scroll-up {
@@ -317,8 +322,8 @@ footer {
 }
 
 .up-arrow {
-    width: 8rem;
-    height: 8rem;
+    width: 3rem;
+    height: 3rem;
 }
 
 @media screen and (max-width: 720px) {
