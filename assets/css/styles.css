@@ -134,7 +134,7 @@ nav ul li {
 
 /*more-about section*/
 .more-about {
-    padding: 1rem 16rem;
+    padding: 1rem 20rem;
 }
 
 .more-about h2 {
@@ -145,6 +145,7 @@ nav ul li {
 .more-about p {
     line-height: var(--line-height);
     padding: 0.4rem;
+    text-align: center;
 }
 /* End of more-about section */
 
