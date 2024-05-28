@@ -10,7 +10,7 @@ Sikelela Mathole
 This the [link](https://github.com/sikmat/Portfolio) to the Github repo of the peoject
 
 # Website link
-The live site is available via this [link](http://127.0.0.1:3000/index.html)
+The live site is available via this [link](https://sikmat.github.io/Portfolio/)
 # Tech Stack
 Client: HTML, CSS, JavaScript
 
